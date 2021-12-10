@@ -42,7 +42,7 @@ int main()
         if (strcmp("forward", curDirection) == 0)
         {
             curX += distance;
-            curDepth += curAim*distance;
+            curDepth += curAim * distance;
         }
         else if (strcmp("down", curDirection) == 0)
         {
